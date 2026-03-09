@@ -144,9 +144,6 @@
   font-size: var(--text-font-size);
 }
 
-.content-section__card {
-}
-
 .content-section__card-title {
   font-weight: 700;
   font-size: var(--text-font-size);
