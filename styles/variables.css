@@ -1,13 +1,15 @@
 :root {
   --main-font: "IBM Plex mono";
+  --text-font-size: 18px;
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
   --page-padding: 10px;
+  --content-padding-top: 40px;
+  --gallery-section-padding-bottom: 40px;
+
   --gap-main: 50px;
   --gap-section: 20px;
   --gap-galery: 10px;
-  --header-min-height: 668px;
-  --gallery-section-padding-bottom: 40px;
 
-  --content-padding-top: 40px;
-  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --text-font-size: 18px;
+  --header-min-height: 668px;
 }
