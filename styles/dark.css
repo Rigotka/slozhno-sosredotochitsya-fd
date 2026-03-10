@@ -9,6 +9,8 @@
   --text-color: #f1b2ce;
   --button-color: #ff0070;
   --button-hover-color: #ff007066;
+
+  --rec-display: flex;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,8 +26,6 @@
     --button-color: #ff0070;
     --button-hover-color: #ff007066;
 
-    .rec-label {
-      display: block;
-    }
+    --rec-display: flex;
   }
 }
